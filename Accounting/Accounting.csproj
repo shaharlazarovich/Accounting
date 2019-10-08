@@ -316,7 +316,7 @@
     <MakeDir Directories="$(PublishUrl)\TransformedConfigs"  />
   </Target>
   
-  <UsingTask TaskName="TransformXml" AssemblyFile="$(SolutionDir)\packages\MSBuild.Microsoft.VisualStudio.Web_WebApplication.Targets.12.0.2\tools\VSToolsPath\Web\Microsoft.Web.Publishing.Tasks.dll" />
+  <UsingTask TaskName="TransformXml" AssemblyFile="$(SolutionDir)\packages\MSBuild.Microsoft.VisualStudio.Web.targets.14.0.0.3\tools\VSToolsPath\Web\Microsoft.Web.Publishing.Tasks.dll" />
 
   <Target Name="ConfigTransformations" AfterTargets="AfterBuild" >
     <TransformXML Source="web.config" Transform="web.%(Environments.Identity).config" 
