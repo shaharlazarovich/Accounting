@@ -1,8 +1,8 @@
 ﻿	Param(
         
-        [String] $solution_dir ="c:\source\Accounting" , 
-        [String] $project_dir ="c:\source\Accounting\Accounting",
-        [String] $output_path = "c:\buildOutput"
+        [String] $solution_dir ="D:\User\Source\Repos\Accounting" , 
+        [String] $project_dir ="D:\User\Source\Repos\Accounting\Accounting",
+        [String] $output_path = "D:\User\BuildOutput\Accounting"
         )
        
     $webconfig = $project_dir+"\web.config"
